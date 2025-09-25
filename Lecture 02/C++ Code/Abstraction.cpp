@@ -97,7 +97,7 @@ public:
 // Main Method
 int main() {
 
-    Car* myCar = new SportsCar("Ford", "Mustang");
+    SportsCar* myCar = new SportsCar("Ford", "Mustang");
 
     myCar->startEngine();
     myCar->shiftGear(1);

@@ -1,0 +1,1 @@
+    mySportsCar->currentSpeed = 500;

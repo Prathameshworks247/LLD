@@ -98,6 +98,7 @@ int main() {
     mySportsCar->shiftGear(1);
     mySportsCar->accelerate();
     mySportsCar->shiftGear(2);
+    cout << "Current Speed of My Sports Car is " << mySportsCar->getSpeed() << endl;
     mySportsCar->accelerate();
     mySportsCar->brake();
     mySportsCar->stopEngine();
